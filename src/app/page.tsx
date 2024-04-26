@@ -16,7 +16,7 @@ export default function Home() {
          grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-[40px] gap-x-[30px]  items-center bg-transparent"
         >
           {data.map((item, i) => (
-            <JobCard
+            <JobCard key={i}
             
             />
           ))}
